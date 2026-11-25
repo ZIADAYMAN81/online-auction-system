@@ -1,5 +1,7 @@
 # Online Auction System (Java Swing)
 
+[![tests](https://github.com/ZIADAYMAN81/online-auction-system/actions/workflows/tests.yml/badge.svg)](https://github.com/ZIADAYMAN81/online-auction-system/actions/workflows/tests.yml)
+
 > University coursework, The British University in Egypt, 2023. Author: Ziad Ayman.
 
 A desktop auction marketplace: users register, list items with a starting price and an end time, bid against each other, and the system automatically settles each auction, moving money from the winner to the seller. All business rules live in a plain-Java domain layer with a full test suite; the Swing interface only calls into it.
@@ -42,3 +44,6 @@ The original 2023 coursework had the login and product screens but no auction lo
 
 ## Tech stack
 Java 17 · Swing · java.time · PBKDF2 (javax.crypto) · Java serialisation with input filters
+
+## License
+MIT, see [LICENSE](LICENSE).
